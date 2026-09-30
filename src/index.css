@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-primary: #775a19;
+  --color-primary-container: #c5a059;
+  --color-on-primary-container: #4e3700;
+  --color-primary-fixed: #ffdea5;
+  --color-primary-fixed-dim: #e9c176;
+  
+  --color-gold-light: #E2C48D;
+  --color-gold-deep: #9E7B35;
+  --color-sandstone-soft: #F5F0E8;
+  --color-sandstone-border: #E8DFD1;
+  
+  --color-charcoal-pure: #121110;
+  --color-earth-brown: #3D342A;
+  
+  --color-surface: #fbf9f6;
+  --color-surface-bright: #fbf9f6;
+  --color-surface-dim: #dbdad7;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3f0;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-high: #eae8e5;
+  --color-surface-container-highest: #e4e2df;
+  
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #4e4639;
+  --color-secondary: #615e5b;
+  --color-tertiary: #8f4c34;
+  --color-outline: #7f7667;
+  --color-outline-variant: #d1c5b4;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-serif-royal {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Material symbols utility */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

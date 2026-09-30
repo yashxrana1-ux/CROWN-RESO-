@@ -1,0 +1,6 @@
+{
+  "name": "Crown Pavilion Resort Agra",
+  "description": "Luxury palatial resort in Agra where heritage meets modern indulgence. Featuring royal suites, exquisite starlit dining, destination celebrations, and bespoke concierge hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
